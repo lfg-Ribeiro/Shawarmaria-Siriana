@@ -15,76 +15,52 @@
                 front.style.display="none"
             }else{
                 tr[i].style.display="none"
-                 
-
-
             }
         }
     }
-
     if(searchval == ""){
         front.style.display="flex"
-
     }
  }
 
-
 //  nav
-
 function showLogin(){
     let login = document.querySelector(".log");
     login.style.display="block"
     let nav = document.querySelector(".nav");
     nav.style.display="none"
-
-
 }
-
-
 function showNav(){
     let nav = document.querySelector(".nav");
     nav.style.display="block"
     let login = document.querySelector(".log");
     login.style.display="none"
-
 }
-
 function login(){
     let login = document.querySelector(".log");
     login.style.display="none"
 }
-
-
 function nav(){
     let nav = document.querySelector(".nav");
     nav.style.display="none"
 }
 
-
-
 //  IMAGE SLIDER
-
 let cust = document.querySelectorAll(".customer");
 let count = 0;
 console.log(cust);
-
 cust.forEach(function(review, index){
     review.style.left=`${index * 100}%`
     console.log(review);
     console.log(index);
-
 })
-
-
 function prev(){
     count --;
     if(count == -1){
         count = cust.length - 1;
     }
     slide();
-
 }
-
 function next(){
     count ++;
     if(count == cust.length){
@@ -92,7 +68,6 @@ function next(){
     }
     slide();
 }
-
 function slide(){
     cust.forEach(function(review){
         review.style.transform=`translateX(-${count * 100}%)`;
