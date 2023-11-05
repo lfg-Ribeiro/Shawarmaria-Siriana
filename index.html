@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shawarmaria Siriana</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <nav>
+            <div class="logo">
+                <h1>Siriana</h1>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Procure aqui..." value="" id="inp" onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i ondblclick="login()" onclick="showLogin()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i ondblclick="nav()" onclick="showNav()" class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div class="log">
+            <h2>Log In</h2>
+            <input type="text" placeholder="Login" >
+            <input type="password" placeholder="Senha" >
+            <button>Log In</button>
+        </div>
+        <div class="nav">
+             <p>Inicio</p>
+             <p>Cardápio</p>
+             <p>Blog</p>
+             <p>Avaliações</p>
+        </div>
+
+        <!-- main page -->
+        <div class="mainPage">
+            <div class="text">
+                <h1>Shawarma</h1>
+                <p>Shawarma é um prato originalmente do oriente médio, composto de fatias finas de carne
+                de carneiro ou frango, assada em um espeto vertical e servidas no pão árabe com legumes, 
+                homus, labneh e outros acompanhamentos</p>
+            </div>
+            <img src="img/shawarma.png">
+        </div>
+
+        <!-- cards -->
+        <table>
+            <tr>
+                <td class="crdTD">
+                    <div class="head">
+                        <h1>Nosso <span>Cardápio</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="img/food_carne.jpg">
+                            <h2>Carne</h2>
+                            <p>Shawarma de Carne, alface, tomate e batata frita.</p>
+                            <button>Pedir Agora</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/food_frango.jpg">
+                            <h2>Frango</h2>
+                            <p>Shawarma de Frango, alface, tomate e batata frita.</p>
+                            <button>Pedir Agora</button>
+                        </div>
+                        <div class="card">
+                            <img src="img/food_hamburguer.jpg">
+                            <h2>Burguer</h2>
+                            <p>Pão Brioche, hamburguer 180g e queijo. Acompanha 350g de Batata Fritas</p>
+                            <button>Pedir Agora</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="head">
+            <h1>Nossas <span>Avaliações</span></h1>
+        </div>
+        <div class="review">
+            <div class="customer">
+                <img src="img/av_vitor.jpg" alt="Avaliação Vitor" width="200" height="150">
+                <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <p>Ambiente agradável, atendimento excelente, a comida estava ótima também, estava tudo perfeito.</p>
+            </div>
+            <div class="customer">
+                <img src="img/av_guga.jpg" alt="Avaliação Gustavo" width="200" height="150">
+                <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>Atendimento e comida de qualidade, ambiente sensacional e o pessoal que trabalha aqui é muito gentil, adorei e recomendo. </p>
+            </div>
+            <div class="customer">
+                <img src="img/av_3.jpg" alt="Avaliação" width="200" height="150">
+                <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>Estava tudo perfeito, pretendo voltar ao local, atendimento incrível...</p>
+            </div>
+        </div>
+        <div class="btns">
+            <button onclick="prev()">Anterior</button>
+            <button onclick="next()">Próximo</button>
+        </div>
+      <br>
+    </div>
+    <div class="footer">
+        <div class="txt">
+            <h2>Sobre nós</h2>
+            <p>Lorem ipsum dolor porro vero <br> earum architecto beatae ipsam.</p>
+            <p>Fundadores</p>
+            <p>Serviços</p>
+        </div>
+        <div class="txt">
+            <h2>Cardápio</h2>
+            <p>Shawarmas</p>
+            <p>Hamburgueres</p>
+            <p>Bebidas</p>
+        </div>
+        <div class="txt">
+            <h2>Contato</h2>
+            <p><a href="#" onclick="abrirWpp(); return false;">WhatsApp</a></p>
+                <script>
+                    function abrirWpp() {window.open("https://api.whatsapp.com/send?phone=5545998334046", "_blank");}
+                </script>
+            <p><a href="#" onclick="abrirWpp(); return false;">Instagram</a></p>
+            <script>
+                function abrirWpp() {window.open("https://www.instagram.com/shawarmaria.siriana/", "_blank");}
+            </script>
+            <p><a href="#" onclick="abrirWpp(); return false;">Facebook</a></p>
+            <script>
+                function abrirWpp() {window.open("https://www.facebook.com/profile.php?id=100050820084081", "_blank");}
+            </script>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>
