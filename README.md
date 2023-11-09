@@ -23,5 +23,5 @@ Este é o repositório para o site oficial do restaurante Shawarmaria Siriana. O
 
 # Autores
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/60857330?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/60857330?v=4" width=115><br><sub>Luan Ribeiro</sub>](https://github.com/lfg-Ribeiro) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
 | :---: | :---: | :---: |
