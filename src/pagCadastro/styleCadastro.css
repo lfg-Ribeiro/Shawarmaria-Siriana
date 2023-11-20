@@ -17,11 +17,13 @@ body {
     color: red;
 }
 h1 {
+    color: rgb(182, 0, 0);
     text-align: center; 
     font-size: 28px; 
     margin-bottom: 20px;
 }
 label {
+     color: rgb(255, 255, 255);
     display: center;
     display: block;
     margin-bottom: 10px;
@@ -36,7 +38,7 @@ input, select, textarea {
     width: 100%; 
 }
 button {
-    background-color: #0074d9;
+    background-color: rgb(182, 0, 0);;
     color: #fff;
     padding: 12px 15px;
     border: none;
