@@ -28,6 +28,7 @@ function sendEmail() {
     const email = document.getElementById("email").value;
     const cep = document.getElementById("cep").value;
     const endereco = document.getElementById("endereco").value;
+    const numero = document.getElementById("numero").value; 
     const sexo = document.getElementById("sexo").value;
     const dataNascimento = document.getElementById("dataNascimento").value;
     const mensagem = document.getElementById("mensagem").value;
